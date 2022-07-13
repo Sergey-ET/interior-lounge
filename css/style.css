@@ -22,7 +22,7 @@
 }
 
 .page-main {
-  padding: 72px 0 88px 0;
+  padding-top: 72px;
   background-color: #FFFDF8;
 }
 
@@ -61,12 +61,13 @@
 .wysiwyg-wrapper ol,
 .wysiwyg-wrapper ul {
   margin-bottom: 56px;
-  padding-left: 15px;
+  padding-left: 27px;
 }
 
 .wysiwyg-wrapper li {
   position: relative;
   margin-bottom: 8px;
+  list-style: none;
 }
 
 .wysiwyg-wrapper li:last-child {
@@ -79,10 +80,10 @@
   display: block;
   height: 8px;
   width: 8px;
-  background: #f5d581;
+  background-color: #f5d581;
   transform: rotate(45deg);
   top: 10px;
-  left: -15px;
+  left: -27px;
 }
 
 .wysiwyg-wrapper blockquote {
@@ -97,4 +98,68 @@
   color: #9F7303;
   border-top: 1px solid #F5D581;
   border-bottom: 1px solid #F5D581;
+}
+
+.comments {
+  position: relative;
+  padding: 56px 0 88px;
+  background-color: #F4EFE2;
+}
+
+.comments::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 1px;
+  width: 1110px;
+  background-color: #f5d581;
+  top: 0;
+  left: 165px;
+}
+
+.comment {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 8px 24px;
+  margin-bottom: 32px;
+}
+
+.comment:last-child {
+  margin-bottom: 0;
+}
+
+.comment__image-wrapper {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f5d581;
+}
+
+.comment__image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  text-indent: -100vw;
+}
+
+.wysiwyg-wrapper .comment__name {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.wysiwyg-wrapper .comment__description {
+  grid-column: 2 / -1;
+  grid-row: 2 / -1;
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
 }
