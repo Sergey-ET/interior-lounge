@@ -138,7 +138,7 @@
   background-color: #f5d581;
 }
 
-.comment__image {
+.comment__image-wrapper img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
