@@ -114,20 +114,8 @@
 }
 
 .comments {
-  position: relative;
   padding: 56px 0 88px;
   background-color: #F4EFE2;
-}
-
-.comments::before {
-  content: "";
-  position: absolute;
-  display: block;
-  height: 1px;
-  width: 1110px;
-  background-color: #f5d581;
-  top: 0;
-  left: 165px;
 }
 
 .comment {
@@ -174,8 +162,13 @@
 }
 
 .feedback {
-  padding: 81px 0 56px;
+  padding-top: 81px;
   background-color: #F4EFE2;
+}
+
+.feedback-form {
+  padding-bottom: 56px;
+  border-bottom: 1px solid #f5d581;
 }
 
 .feedback-title {
