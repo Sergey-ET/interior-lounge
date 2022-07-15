@@ -159,7 +159,7 @@
   text-indent: -100vw;
 }
 
-.wysiwyg-wrapper .comment__name {
+.comment__name {
   grid-column: 2 / -1;
   grid-row: 1 / 2;
   margin: 0;
@@ -167,7 +167,7 @@
   font-size: 14px;
 }
 
-.wysiwyg-wrapper .comment__description {
+.comment__description {
   grid-column: 2 / -1;
   grid-row: 2 / -1;
   margin: 0;
