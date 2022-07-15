@@ -172,3 +172,104 @@
   grid-row: 2 / -1;
   margin: 0;
 }
+
+.feedback {
+  padding: 81px 0 56px;
+  background-color: #F4EFE2;
+}
+
+.feedback-title {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #9F7303;
+}
+
+.cf7md-item {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.wpcf7-textarea {
+  width: 100%;
+  height: 160px;
+  margin: 0;
+  padding: 16px;
+  background-color: #FFFFFF;
+  border: 1px solid #F5D581;
+  border-radius: 8px;
+  resize: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.wpcf7-text {
+  width: 540px;
+  height: 64px;
+  padding: 16px 16px 21px 16px;
+  background-color: #FFFFFF;
+  border: 1px solid #F5D581;
+  border-radius: 8px;
+  font-family: "Montserrat", "Tahoma", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.wpcf7-textarea::-webkit-input-placeholder,
+.wpcf7-text::-webkit-input-placeholder {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.wpcf7-textarea::-moz-placeholder,
+.wpcf7-text::-moz-placeholder {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.wpcf7-textarea:-ms-input-placeholder,
+.wpcf7-text:-ms-input-placeholder {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.wpcf7-textarea:-moz-placeholder,
+.wpcf7-text:-moz-placeholder {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.feedback-form__submit-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.wpcf7-submit {
+  width: 285px;
+  margin-right: 16px;
+  padding: 19px 92px 18px 91px;
+  border-radius: 8px;
+  font-family: "Montserrat", "Tahoma", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  background-color: #9F7303;
+  border: 0;
+  cursor: pointer;
+}
+
+.feedback-form__text {
+  margin: 0;
+  font-size: 12px;
+  opacity: 0.7;
+}
