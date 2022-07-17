@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+input,
+textarea {
+  outline: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -209,6 +214,14 @@
   border-radius: 8px;
 }
 
+.wpcf7-textarea:focus,
+.wpcf7-textarea:active,
+.wpcf7-text:focus,
+.wpcf7-text:active {
+  border: 1px solid #9F7303;
+  box-shadow: inset 0px 4px 4px rgba(245, 213, 129, 0.25);
+}
+
 .feedback-form .wpcf7-text {
   width: 540px;
 }
@@ -259,6 +272,15 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.wpcf7-submit:hover,
+.wpcf7-submit:focus {
+  background-color: #856103;
+}
+
+.wpcf7-submit:active {
+  background-color: #684C05;
 }
 
 .feedback-text {
