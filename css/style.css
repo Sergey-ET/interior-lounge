@@ -7,6 +7,11 @@ textarea {
   outline: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -40,7 +45,7 @@ textarea {
 }
 
 .page-main {
-  padding-top: 72px;
+  padding-top: 36px;
   background-color: #FFFDF8;
 }
 
@@ -288,4 +293,99 @@ textarea {
   margin-left: 16px;
   font-size: 12px;
   opacity: 0.7;
+}
+
+.page-header {
+  padding: 10px 0 18px 0;
+  border-bottom: 1px solid #F5D581;
+}
+
+.page-header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-header__logo-wrapper a {
+  display: block;
+  max-height: 47px;
+}
+
+.menu-primary-container .menu {
+  min-width: 540px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.menu-primary-container .menu .menu-item--outlined a {
+  border: 1px solid #9F7303;
+  border-radius: 8px;
+}
+
+.menu-primary-container .menu .menu-item--outlined a:focus,
+.menu-primary-container .menu .menu-item--outlined a:hover {
+  background-color: #FFFDF8;
+}
+
+.menu-primary-container .menu .menu-item--outlined a:active {
+  background-color: #FFF7E3;
+}
+
+.menu-primary-container a {
+  display: block;
+  padding: 5px 22px 6px 23px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu-primary-container .menu-item-has-children {
+  position: relative;
+  background-image: url("/img/icon-sub-menu.svg");
+  background-position: 98% 55%;
+  background-size: 13px 9px;
+  background-repeat: no-repeat;
+}
+
+.menu-primary-container .sub-menu {
+  display: none;
+  position: absolute;
+  top: 33px;
+  left: 23px;
+  min-width: 200px;
+  padding: 24px 0 32px 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(97, 97, 97, 0.18), 0px 4px 8px rgba(97, 97, 97, 0.18);
+  list-style: none;
+  z-index: 2;
+}
+
+.menu-primary-container .menu-item-has-children:hover .sub-menu,
+.menu-primary-container .menu-item-has-children:focus .sub-menu {
+  display: block;
+}
+
+.menu-primary-container .sub-menu .menu-item {
+  margin-bottom: 23px;
+  line-height: 22px;
+}
+
+.menu-primary-container .sub-menu .menu-item:last-child {
+  margin-bottom: 0;
+}
+
+.menu-primary-container .sub-menu .menu-item {
+  padding: 0;
+}
+
+.menu-primary-container .sub-menu a {
+  padding: 0;
+}
+
+.menu-primary-container .sub-menu a:hover {
+  color: #9F7303;
 }
