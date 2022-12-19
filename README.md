@@ -5,3 +5,7 @@
 Training project at asynchronous course "Profession "Frontend Developer" by [HTML Academy](https://htmlacademy.ru), 4th module "Preparation of the layout for CMS". Project was done in July 2022.
 
 Project completed by [Sergey Troshkin](https://htmlacademy.ru/profile/therealdeveloper)
+
+## Project Overview
+
+https://sergey-et.github.io/interior-lounge/
